@@ -1,0 +1,97 @@
+form {
+  position: relative;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  width: 100vw;
+  background-color: #F8F9FD;
+  height: 5rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.control {
+  margin-bottom: 2.5rem;
+}
+
+.control label {
+  font-weight: 400;
+  display: block;
+  /* margin-bottom: 0.1rem; */
+}
+
+.control input {
+  font: inherit;
+  padding: 0.25rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #c1d1d1;
+  display: block;
+  width: 40%;
+  font-size: 1.25rem;
+  opacity: 0.6;
+}
+
+.control textarea {
+  width: 45rem;
+  height: 15rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #c1d1d1;
+  opacity: 0.9;
+}
+
+.actions {
+  text-align: right;
+}
+
+.actions button {
+  font-size: 1.25rem;
+}
+button {
+  padding: 6px 18px;
+  background: #44924c;
+  border-radius: 0.4rem;
+  border: 0px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.select
+{
+    margin-bottom: 2.5rem;
+}
+
+.select input[type = "image"]{
+    font: inherit;
+    padding: 0.25rem;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    border: 1px solid #c1d1d1;
+    display: block;
+    width: 10rem;
+    font-size: 1.25rem;
+    opacity: 0.6;
+}
+
+.select input[type = "text"]
+{
+    font: inherit;
+    padding: 0.25rem;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #c1d1d1;
+    display: block;
+    width: 10rem;
+    font-size: 1.25rem;
+    opacity: 0.6;
+}

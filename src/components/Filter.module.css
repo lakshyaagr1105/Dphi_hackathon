@@ -1,0 +1,15 @@
+.main
+{
+  color: black;
+  background-color: white;
+  width: 15vw;
+  border-radius: 1rem;
+/* position: relative; */
+}
+
+.parent
+{
+margin-left: 5px;
+text-align: left;
+
+}

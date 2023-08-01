@@ -1,0 +1,12 @@
+.main
+{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.main img
+{
+margin-left: 5rem;
+}

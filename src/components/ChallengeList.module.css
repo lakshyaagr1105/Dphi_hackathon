@@ -1,0 +1,10 @@
+.main{
+    background-color: #003145;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 4rem 0px;
+}

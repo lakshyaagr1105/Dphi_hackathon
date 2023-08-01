@@ -1,0 +1,87 @@
+.main {
+  height: 50vh;
+  background-color: #003145;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  align-items: left;
+  justify-content: center;
+  color: white;
+  padding-left: 8rem;
+}
+
+.main h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffce5c;
+  width: fit-content;
+  align-items: center;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.time p {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: black;
+  margin-bottom: 0rem;
+}
+
+.bar {
+  width: 100vw;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8rem;
+  border: 0.3px solid #dde6ed;
+  box-shadow: 0px 6px 12px #dde6ed;
+}
+
+.bar p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 0rem;
+}
+
+.function {
+  width: 4rem;
+}
+
+.delete {
+  background: white;
+  border: 1px solid red;
+  color: red;
+  border-radius: 0.6rem;
+  margin-left: 1.3rem;
+}
+
+.edit {
+  background: #44924c;
+  border: 1px solid #44924c;
+  color: white;
+  border-radius: 0.6rem;
+  margin-left: 1.3rem;
+}
+
+.description {
+  padding: 2rem 8rem;
+  width: 80%;
+}
+
+.description p {
+  color: #64607d;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}

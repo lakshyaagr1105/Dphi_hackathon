@@ -1,0 +1,32 @@
+.bottom{
+    height: 20vh;
+    background-color: #002A3B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 17vw;
+  }
+  
+  .card img{
+    width: 3.5rem;
+  }
+  
+  .submissions
+  {
+    color: white;
+  }
+  
+  span{
+    content: "";
+    width: 1px;
+    height: 2.5rem;
+    background-color: white;
+    opacity: 0.7;
+  }
